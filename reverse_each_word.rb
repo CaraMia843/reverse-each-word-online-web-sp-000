@@ -1,5 +1,6 @@
 def reverse_eac_word(string)
+  new_array = []
   string.each do |string|
-    string.reverse.split(" ")
+    new_array.reverse.split(" ")
   end
 end
